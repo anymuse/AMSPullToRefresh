@@ -21,22 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AMSPullToRefresh'
+  s.homepage         = 'https://github.com/anymuse/AMSPullToRefresh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'anymuse' => 'anymuse@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AMSPullToRefresh.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AMSPullToRefresh/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AMSPullToRefresh' => ['AMSPullToRefresh/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source           = { :git => 'https://github.com/anymuse/AMSPullToRefresh.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '7.0'
+  s.requires_arc = true
+  s.source_files = 'AMSPullToRefresh/*'
+  s.public_header_files = 'AMSPullToRefresh/*.h'
 end

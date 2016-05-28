@@ -7,97 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EAD368101864FB278CC900EE989968 /* Pods-AMSPullToRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AB2C8E2A189B1E980C382EDE280174 /* Pods-AMSPullToRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21B03E457B195832DB815865641C9611 /* Pods-AMSPullToRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5FEB28F01524024BA805C23202B677 /* Pods-AMSPullToRefresh_Example-dummy.m */; };
-		243C88A9F51553AAC2DAD231A45FF601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3A6B63D00B55096CB8CF51C87015A8E0 /* Pods-AMSPullToRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30FC4EA8211A3BCACD86EEAB8828D7 /* Pods-AMSPullToRefresh_Tests-dummy.m */; };
-		3C7784289A232CBAA84DE3C2531207D8 /* AMSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EDA7D87D7CFAE206CB058F1B5E112 /* AMSPullToRefresh-dummy.m */; };
-		A31241771CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = A31241751CFA0F91008964A8 /* AMSPullToRefresh.h */; };
-		A31241781CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = A31241751CFA0F91008964A8 /* AMSPullToRefresh.h */; };
-		A31241791CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = A31241751CFA0F91008964A8 /* AMSPullToRefresh.h */; };
-		A312417A1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31241761CFA0F91008964A8 /* AMSPullToRefresh.m */; };
-		A312417B1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31241761CFA0F91008964A8 /* AMSPullToRefresh.m */; };
-		A312417C1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A31241761CFA0F91008964A8 /* AMSPullToRefresh.m */; };
-		AEEB69571287361FE912EB83E375FDCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B18E3399C0F6AA6FF282085723E10980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		BFA3775C69D071C25D64362290A736F4 /* AMSPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7E48A06380FCD25AFEF080356B0BA2 /* AMSPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E442218ECC2EA6BD607D241215FC0A2D /* Pods-AMSPullToRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DD396F8BBB2EE6A4B2CF9724D7BF53 /* Pods-AMSPullToRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1470A72CE1392A2611E30B5A7DDB2D41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1ABAE4E3939D4D48A01149B14759A299 /* AMSPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB6FC17180384E6B1EB95E1F657C99 /* AMSPullToRefresh.m */; };
+		3AB3625AFAC74C2974FD2CDC898C3A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		469C57B2F662D34AB8FB0973FACBA895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7AC7898245C4C390D85AF43F648C3C44 /* AMSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F7A3D5FA334641DA01F78D9C9E881B /* AMSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805027E9AC21CC6FE66BAE17E696432E /* Pods-AMSPullToRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFB441F519F3F8F20A6091B65BD3687 /* Pods-AMSPullToRefresh_Example-dummy.m */; };
+		A5A860CA7A25D48523CCF77FAA525A8A /* AMSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6D85B8E1F14815DEDAAB4CF5698DC /* AMSPullToRefresh-dummy.m */; };
+		EC34F1A745F69E77B3E1CB2E31000041 /* Pods-AMSPullToRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE9B277217F23FFFFFF97F8A7B2CEFA /* Pods-AMSPullToRefresh_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96873832EA68C1779D4CC10CEDBA3790 /* PBXContainerItemProxy */ = {
+		09576FE0AECBAFF915304374CCE1C33D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64369B1531E319034875334537842DF6;
+			remoteGlobalIDString = 2297DA1AE270B8CA527E6E6AE1059A3D;
 			remoteInfo = AMSPullToRefresh;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A02BEC5FCAF4A80BE0E5D68C671169 /* Pods_AMSPullToRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMSPullToRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F6EDA7D87D7CFAE206CB058F1B5E112 /* AMSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
-		14DD396F8BBB2EE6A4B2CF9724D7BF53 /* Pods-AMSPullToRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMSPullToRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2494282EB0FD7F8795CF78EDA7218B32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F1BA23A4A409121FCC4AD269CB916F0 /* Pods-AMSPullToRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMSPullToRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		3371F8E25C3EC04399050CA67847CC33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ECF59CA0B50E7AD7737B3BBAA5BB5FB /* Pods-AMSPullToRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMSPullToRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43A045DC84E961513628D96545461528 /* Pods-AMSPullToRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4D0E7E893103CC7A7439847FE53766B2 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		60C2F777D4C196D024483B0B1D700413 /* Pods-AMSPullToRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMSPullToRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		651D30C7D96BD0BD34CF0687FBF887E7 /* Pods-AMSPullToRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMSPullToRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		772CDE0C669C572CA3EC26D758EA66A6 /* Pods-AMSPullToRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Example-resources.sh"; sourceTree = "<group>"; };
+		06BA994599E348AC7E21A64B87C907B3 /* Pods-AMSPullToRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Example-resources.sh"; sourceTree = "<group>"; };
+		09ED3FDD561C45EF6202B9B25B0D7C7F /* Pods-AMSPullToRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMSPullToRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CF1219E57D75BA701615885D0701DA7 /* libPods-AMSPullToRefresh_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMSPullToRefresh_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11384F2EE5203D5C059A90540E17EBAD /* Pods-AMSPullToRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1EFC65CB0B8A90620C0AAC80AC003478 /* Pods-AMSPullToRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22A6D85B8E1F14815DEDAAB4CF5698DC /* AMSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		2ABE23173CE4D7391FEAEF25A41F8473 /* Pods-AMSPullToRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMSPullToRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38784AA9B889E485AD9051395699CF9C /* Pods-AMSPullToRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMSPullToRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AFC477289E3E0AC658EA5020ABFA011 /* Pods-AMSPullToRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
+		4AAB6FC17180384E6B1EB95E1F657C99 /* AMSPullToRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AMSPullToRefresh.m; sourceTree = "<group>"; };
+		4DAA2E5FBA47E38DC647AF8A90D358C9 /* Pods-AMSPullToRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMSPullToRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61BC2D405B0AEA0A52A8431C2FD84D12 /* AMSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		666B7881123CE13E439003249D574715 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4A2946C817107EE5F0886E9C362098 /* Pods-AMSPullToRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		74F7A3D5FA334641DA01F78D9C9E881B /* AMSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMSPullToRefresh.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		984B0250FC654673792827371114C6F0 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98AB2C8E2A189B1E980C382EDE280174 /* Pods-AMSPullToRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMSPullToRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
-		9C0365BD96F536BBD08BC9C9E712A079 /* AMSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMSPullToRefresh.modulemap; sourceTree = "<group>"; };
-		A31241751CFA0F91008964A8 /* AMSPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSPullToRefresh.h; path = AMSPullToRefresh/AMSPullToRefresh.h; sourceTree = "<group>"; };
-		A31241761CFA0F91008964A8 /* AMSPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSPullToRefresh.m; path = AMSPullToRefresh/AMSPullToRefresh.m; sourceTree = "<group>"; };
-		B35FC729CAC24F817AF59D3BDAB534FD /* AMSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
-		B577B6750C0ECE026A261E10FFC9D86C /* Pods-AMSPullToRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
-		BE5FEB28F01524024BA805C23202B677 /* Pods-AMSPullToRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMSPullToRefresh_Example-dummy.m"; sourceTree = "<group>"; };
-		C3A5F349B442EE2DFEF5FEF701FFAF23 /* Pods-AMSPullToRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C41DCA9A09AC82976E44EF84887DCB47 /* AMSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMSPullToRefresh.xcconfig; sourceTree = "<group>"; };
-		C662B521B0AD3150C9EABE08F5DB771C /* Pods-AMSPullToRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMSPullToRefresh_Example.modulemap"; sourceTree = "<group>"; };
-		C7B1BB111FEAF68430B11705560A46EB /* Pods-AMSPullToRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMSPullToRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CD695C7D5848447482A9F764516AA32B /* Pods-AMSPullToRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CDE38A7B3044D10BA81D7937AD8FE40D /* Pods-AMSPullToRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		978885E99F9F451A696A3A0A818BAFA4 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMSPullToRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2319983388FD4FF446B82AE08F6B26 /* libPods-AMSPullToRefresh_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMSPullToRefresh_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33A8974EE7B648872801001100E4266 /* Pods-AMSPullToRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMSPullToRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B6A33F87EC8EEA8340931A630BD70B2B /* libAMSPullToRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMSPullToRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D34B174722895779AE3F2664275D2604 /* Pods_AMSPullToRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMSPullToRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2EBF510ECC6B39F9639AD781AB3E99 /* AMSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA7E48A06380FCD25AFEF080356B0BA2 /* AMSPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
-		EE30FC4EA8211A3BCACD86EEAB8828D7 /* Pods-AMSPullToRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMSPullToRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		FDF4477381BE5D366B94E07D064B5F6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFB441F519F3F8F20A6091B65BD3687 /* Pods-AMSPullToRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMSPullToRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		E90E91B4E56FA389D955ADC3FD2D10F6 /* AMSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		FDE9B277217F23FFFFFF97F8A7B2CEFA /* Pods-AMSPullToRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMSPullToRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6A0FC6EDAD22419F7F07B12742C946E /* Frameworks */ = {
+		8D979BFC1F2D2EFDB441F12C2385F45C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18E3399C0F6AA6FF282085723E10980 /* Foundation.framework in Frameworks */,
+				469C57B2F662D34AB8FB0973FACBA895 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB884DDACBCF67EB54353B3A820DAF89 /* Frameworks */ = {
+		9F10D987EE4A43F1954BE81FE38B01A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEB69571287361FE912EB83E375FDCF /* Foundation.framework in Frameworks */,
+				3AB3625AFAC74C2974FD2CDC898C3A79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC4DD4661AF3E1A3361BF81DC6AD7C7E /* Frameworks */ = {
+		B345B5FF3D208AC7E610CDB9BFC3417A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243C88A9F51553AAC2DAD231A45FF601 /* Foundation.framework in Frameworks */,
+				1470A72CE1392A2611E30B5A7DDB2D41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004A6C8C0BDC0F31DA1A773E27573CB6 /* AMSPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				74F7A3D5FA334641DA01F78D9C9E881B /* AMSPullToRefresh.h */,
+				4AAB6FC17180384E6B1EB95E1F657C99 /* AMSPullToRefresh.m */,
+			);
+			path = AMSPullToRefresh;
+			sourceTree = "<group>";
+		};
+		13CFE4F9FC08F5837DA060CAC2B83A06 /* AMSPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				004A6C8C0BDC0F31DA1A773E27573CB6 /* AMSPullToRefresh */,
+				C213CB28F6FC5928EB63A8EB83C42B34 /* Support Files */,
+			);
+			name = AMSPullToRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +109,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		721623676B9734A9923EE59E432AB37C /* Products */ = {
+		3EAA5D7019B1E189AC30765EA9047EA1 /* Pods-AMSPullToRefresh_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DF2EBF510ECC6B39F9639AD781AB3E99 /* AMSPullToRefresh.framework */,
-				03A02BEC5FCAF4A80BE0E5D68C671169 /* Pods_AMSPullToRefresh_Example.framework */,
-				D34B174722895779AE3F2664275D2604 /* Pods_AMSPullToRefresh_Tests.framework */,
+				4DAA2E5FBA47E38DC647AF8A90D358C9 /* Pods-AMSPullToRefresh_Tests-acknowledgements.markdown */,
+				2ABE23173CE4D7391FEAEF25A41F8473 /* Pods-AMSPullToRefresh_Tests-acknowledgements.plist */,
+				FDE9B277217F23FFFFFF97F8A7B2CEFA /* Pods-AMSPullToRefresh_Tests-dummy.m */,
+				6D4A2946C817107EE5F0886E9C362098 /* Pods-AMSPullToRefresh_Tests-frameworks.sh */,
+				3AFC477289E3E0AC658EA5020ABFA011 /* Pods-AMSPullToRefresh_Tests-resources.sh */,
+				978885E99F9F451A696A3A0A818BAFA4 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */,
+				11384F2EE5203D5C059A90540E17EBAD /* Pods-AMSPullToRefresh_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMSPullToRefresh_Tests";
+			path = "Target Support Files/Pods-AMSPullToRefresh_Tests";
+			sourceTree = "<group>";
+		};
+		6EB147879BB1933DB4B97607C32EC23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A33F87EC8EEA8340931A630BD70B2B /* libAMSPullToRefresh.a */,
+				0CF1219E57D75BA701615885D0701DA7 /* libPods-AMSPullToRefresh_Example.a */,
+				9B2319983388FD4FF446B82AE08F6B26 /* libPods-AMSPullToRefresh_Tests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		74BFEB7965396E186FB1AE6AB944115D /* Pods-AMSPullToRefresh_Example */ = {
+			isa = PBXGroup;
+			children = (
+				38784AA9B889E485AD9051395699CF9C /* Pods-AMSPullToRefresh_Example-acknowledgements.markdown */,
+				09ED3FDD561C45EF6202B9B25B0D7C7F /* Pods-AMSPullToRefresh_Example-acknowledgements.plist */,
+				DEFB441F519F3F8F20A6091B65BD3687 /* Pods-AMSPullToRefresh_Example-dummy.m */,
+				B33A8974EE7B648872801001100E4266 /* Pods-AMSPullToRefresh_Example-frameworks.sh */,
+				06BA994599E348AC7E21A64B87C907B3 /* Pods-AMSPullToRefresh_Example-resources.sh */,
+				666B7881123CE13E439003249D574715 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */,
+				1EFC65CB0B8A90620C0AAC80AC003478 /* Pods-AMSPullToRefresh_Example.release.xcconfig */,
+			);
+			name = "Pods-AMSPullToRefresh_Example";
+			path = "Target Support Files/Pods-AMSPullToRefresh_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -122,49 +155,26 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				80A8A3E6BCDE41352D0F33990AB44180 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				721623676B9734A9923EE59E432AB37C /* Products */,
-				F842F56F3D0BD557DCA085AA60DA3B68 /* Targets Support Files */,
+				6EB147879BB1933DB4B97607C32EC23C /* Products */,
+				B308FBCCA3DC458D428C8488706EAF9E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		80A8A3E6BCDE41352D0F33990AB44180 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D02012D79B2AE5E69B8962E78278D712 /* AMSPullToRefresh */,
+				13CFE4F9FC08F5837DA060CAC2B83A06 /* AMSPullToRefresh */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		817E01F2DDE111AD989FB46824D2E6E2 /* Pods-AMSPullToRefresh_Example */ = {
+		B308FBCCA3DC458D428C8488706EAF9E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3371F8E25C3EC04399050CA67847CC33 /* Info.plist */,
-				C662B521B0AD3150C9EABE08F5DB771C /* Pods-AMSPullToRefresh_Example.modulemap */,
-				651D30C7D96BD0BD34CF0687FBF887E7 /* Pods-AMSPullToRefresh_Example-acknowledgements.markdown */,
-				60C2F777D4C196D024483B0B1D700413 /* Pods-AMSPullToRefresh_Example-acknowledgements.plist */,
-				BE5FEB28F01524024BA805C23202B677 /* Pods-AMSPullToRefresh_Example-dummy.m */,
-				CD695C7D5848447482A9F764516AA32B /* Pods-AMSPullToRefresh_Example-frameworks.sh */,
-				772CDE0C669C572CA3EC26D758EA66A6 /* Pods-AMSPullToRefresh_Example-resources.sh */,
-				98AB2C8E2A189B1E980C382EDE280174 /* Pods-AMSPullToRefresh_Example-umbrella.h */,
-				984B0250FC654673792827371114C6F0 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */,
-				CDE38A7B3044D10BA81D7937AD8FE40D /* Pods-AMSPullToRefresh_Example.release.xcconfig */,
+				74BFEB7965396E186FB1AE6AB944115D /* Pods-AMSPullToRefresh_Example */,
+				3EAA5D7019B1E189AC30765EA9047EA1 /* Pods-AMSPullToRefresh_Tests */,
 			);
-			name = "Pods-AMSPullToRefresh_Example";
-			path = "Target Support Files/Pods-AMSPullToRefresh_Example";
-			sourceTree = "<group>";
-		};
-		88FAE17709AB4560056455110C359C47 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C0365BD96F536BBD08BC9C9E712A079 /* AMSPullToRefresh.modulemap */,
-				C41DCA9A09AC82976E44EF84887DCB47 /* AMSPullToRefresh.xcconfig */,
-				0F6EDA7D87D7CFAE206CB058F1B5E112 /* AMSPullToRefresh-dummy.m */,
-				B35FC729CAC24F817AF59D3BDAB534FD /* AMSPullToRefresh-prefix.pch */,
-				EA7E48A06380FCD25AFEF080356B0BA2 /* AMSPullToRefresh-umbrella.h */,
-				FDF4477381BE5D366B94E07D064B5F6D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AMSPullToRefresh";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -175,102 +185,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D02012D79B2AE5E69B8962E78278D712 /* AMSPullToRefresh */ = {
+		C213CB28F6FC5928EB63A8EB83C42B34 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A31241751CFA0F91008964A8 /* AMSPullToRefresh.h */,
-				A31241761CFA0F91008964A8 /* AMSPullToRefresh.m */,
-				88FAE17709AB4560056455110C359C47 /* Support Files */,
+				61BC2D405B0AEA0A52A8431C2FD84D12 /* AMSPullToRefresh.xcconfig */,
+				22A6D85B8E1F14815DEDAAB4CF5698DC /* AMSPullToRefresh-dummy.m */,
+				E90E91B4E56FA389D955ADC3FD2D10F6 /* AMSPullToRefresh-prefix.pch */,
 			);
-			name = AMSPullToRefresh;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EFD5852626E1537E7C936AA81278F9A0 /* Pods-AMSPullToRefresh_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2494282EB0FD7F8795CF78EDA7218B32 /* Info.plist */,
-				2F1BA23A4A409121FCC4AD269CB916F0 /* Pods-AMSPullToRefresh_Tests.modulemap */,
-				3ECF59CA0B50E7AD7737B3BBAA5BB5FB /* Pods-AMSPullToRefresh_Tests-acknowledgements.markdown */,
-				C7B1BB111FEAF68430B11705560A46EB /* Pods-AMSPullToRefresh_Tests-acknowledgements.plist */,
-				EE30FC4EA8211A3BCACD86EEAB8828D7 /* Pods-AMSPullToRefresh_Tests-dummy.m */,
-				43A045DC84E961513628D96545461528 /* Pods-AMSPullToRefresh_Tests-frameworks.sh */,
-				B577B6750C0ECE026A261E10FFC9D86C /* Pods-AMSPullToRefresh_Tests-resources.sh */,
-				14DD396F8BBB2EE6A4B2CF9724D7BF53 /* Pods-AMSPullToRefresh_Tests-umbrella.h */,
-				4D0E7E893103CC7A7439847FE53766B2 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */,
-				C3A5F349B442EE2DFEF5FEF701FFAF23 /* Pods-AMSPullToRefresh_Tests.release.xcconfig */,
-			);
-			name = "Pods-AMSPullToRefresh_Tests";
-			path = "Target Support Files/Pods-AMSPullToRefresh_Tests";
-			sourceTree = "<group>";
-		};
-		F842F56F3D0BD557DCA085AA60DA3B68 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				817E01F2DDE111AD989FB46824D2E6E2 /* Pods-AMSPullToRefresh_Example */,
-				EFD5852626E1537E7C936AA81278F9A0 /* Pods-AMSPullToRefresh_Tests */,
-			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMSPullToRefresh";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F02E219C99A5307F9E259AD77E02664 /* Headers */ = {
+		AC3132A42A9724D4277A9896E603B549 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31241771CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */,
-				BFA3775C69D071C25D64362290A736F4 /* AMSPullToRefresh-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BA8404B5C6F7B234D756ADA84476A6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A31241781CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */,
-				04EAD368101864FB278CC900EE989968 /* Pods-AMSPullToRefresh_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9A590EAFC8059721096093CFC599A96 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A31241791CFA0F91008964A8 /* AMSPullToRefresh.h in Headers */,
-				E442218ECC2EA6BD607D241215FC0A2D /* Pods-AMSPullToRefresh_Tests-umbrella.h in Headers */,
+				7AC7898245C4C390D85AF43F648C3C44 /* AMSPullToRefresh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1216319DA6E2480170D9EA9E63CB8D4E /* Pods-AMSPullToRefresh_Example */ = {
+		12F9D54A94601ACA08F0218922EB3033 /* Pods-AMSPullToRefresh_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DFF6D0A0FF90D825C44DB5EC8C0D29 /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Example" */;
+			buildConfigurationList = D9805516CFF5F6F50AE7B88E3E204FD4 /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Example" */;
 			buildPhases = (
-				569BBC92FDFE4C6B3F930167ACD1D121 /* Sources */,
-				B6A0FC6EDAD22419F7F07B12742C946E /* Frameworks */,
-				1BA8404B5C6F7B234D756ADA84476A6A /* Headers */,
+				8CD9EEF1244442CB7CD3A9C19C81110D /* Sources */,
+				9F10D987EE4A43F1954BE81FE38B01A9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				018490CABB9AF8BB2BA3F2928F576FDF /* PBXTargetDependency */,
+				B12BBAB06697245CCA3558B9C4BCD098 /* PBXTargetDependency */,
 			);
 			name = "Pods-AMSPullToRefresh_Example";
 			productName = "Pods-AMSPullToRefresh_Example";
-			productReference = 03A02BEC5FCAF4A80BE0E5D68C671169 /* Pods_AMSPullToRefresh_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 0CF1219E57D75BA701615885D0701DA7 /* libPods-AMSPullToRefresh_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		64369B1531E319034875334537842DF6 /* AMSPullToRefresh */ = {
+		2297DA1AE270B8CA527E6E6AE1059A3D /* AMSPullToRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 013ECE49FA0FE6CEA93AECD710B0B970 /* Build configuration list for PBXNativeTarget "AMSPullToRefresh" */;
+			buildConfigurationList = 3094F7FD29AD843A9C0994EB1B352328 /* Build configuration list for PBXNativeTarget "AMSPullToRefresh" */;
 			buildPhases = (
-				FBCF400A7FA343BD9AC00D5B50B7AA49 /* Sources */,
-				BB884DDACBCF67EB54353B3A820DAF89 /* Frameworks */,
-				0F02E219C99A5307F9E259AD77E02664 /* Headers */,
+				84E204AF95ED10A16CA17A3CA6F44E87 /* Sources */,
+				8D979BFC1F2D2EFDB441F12C2385F45C /* Frameworks */,
+				AC3132A42A9724D4277A9896E603B549 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -278,16 +241,15 @@
 			);
 			name = AMSPullToRefresh;
 			productName = AMSPullToRefresh;
-			productReference = DF2EBF510ECC6B39F9639AD781AB3E99 /* AMSPullToRefresh.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = B6A33F87EC8EEA8340931A630BD70B2B /* libAMSPullToRefresh.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		CE93888020EA365E7C11E5C0470AF92D /* Pods-AMSPullToRefresh_Tests */ = {
+		8771E26B71EBAC2E6ECEA214B8019C89 /* Pods-AMSPullToRefresh_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5094590A26C22BCD5898A87C91A98CB /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Tests" */;
+			buildConfigurationList = 55782B060F791BC256D8C8321C029A3A /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Tests" */;
 			buildPhases = (
-				1519242FC14ED164A7F4D00A54233D78 /* Sources */,
-				FC4DD4661AF3E1A3361BF81DC6AD7C7E /* Frameworks */,
-				D9A590EAFC8059721096093CFC599A96 /* Headers */,
+				8FDE8C48B5590761BCD9042F8FFAEF54 /* Sources */,
+				B345B5FF3D208AC7E610CDB9BFC3417A /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,8 +257,8 @@
 			);
 			name = "Pods-AMSPullToRefresh_Tests";
 			productName = "Pods-AMSPullToRefresh_Tests";
-			productReference = D34B174722895779AE3F2664275D2604 /* Pods_AMSPullToRefresh_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 9B2319983388FD4FF446B82AE08F6B26 /* libPods-AMSPullToRefresh_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -315,253 +277,77 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 721623676B9734A9923EE59E432AB37C /* Products */;
+			productRefGroup = 6EB147879BB1933DB4B97607C32EC23C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64369B1531E319034875334537842DF6 /* AMSPullToRefresh */,
-				1216319DA6E2480170D9EA9E63CB8D4E /* Pods-AMSPullToRefresh_Example */,
-				CE93888020EA365E7C11E5C0470AF92D /* Pods-AMSPullToRefresh_Tests */,
+				2297DA1AE270B8CA527E6E6AE1059A3D /* AMSPullToRefresh */,
+				12F9D54A94601ACA08F0218922EB3033 /* Pods-AMSPullToRefresh_Example */,
+				8771E26B71EBAC2E6ECEA214B8019C89 /* Pods-AMSPullToRefresh_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1519242FC14ED164A7F4D00A54233D78 /* Sources */ = {
+		84E204AF95ED10A16CA17A3CA6F44E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6B63D00B55096CB8CF51C87015A8E0 /* Pods-AMSPullToRefresh_Tests-dummy.m in Sources */,
-				A312417C1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */,
+				A5A860CA7A25D48523CCF77FAA525A8A /* AMSPullToRefresh-dummy.m in Sources */,
+				1ABAE4E3939D4D48A01149B14759A299 /* AMSPullToRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		569BBC92FDFE4C6B3F930167ACD1D121 /* Sources */ = {
+		8CD9EEF1244442CB7CD3A9C19C81110D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B03E457B195832DB815865641C9611 /* Pods-AMSPullToRefresh_Example-dummy.m in Sources */,
-				A312417B1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */,
+				805027E9AC21CC6FE66BAE17E696432E /* Pods-AMSPullToRefresh_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBCF400A7FA343BD9AC00D5B50B7AA49 /* Sources */ = {
+		8FDE8C48B5590761BCD9042F8FFAEF54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C7784289A232CBAA84DE3C2531207D8 /* AMSPullToRefresh-dummy.m in Sources */,
-				A312417A1CFA0F91008964A8 /* AMSPullToRefresh.m in Sources */,
+				EC34F1A745F69E77B3E1CB2E31000041 /* Pods-AMSPullToRefresh_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		018490CABB9AF8BB2BA3F2928F576FDF /* PBXTargetDependency */ = {
+		B12BBAB06697245CCA3558B9C4BCD098 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMSPullToRefresh;
-			target = 64369B1531E319034875334537842DF6 /* AMSPullToRefresh */;
-			targetProxy = 96873832EA68C1779D4CC10CEDBA3790 /* PBXContainerItemProxy */;
+			target = 2297DA1AE270B8CA527E6E6AE1059A3D /* AMSPullToRefresh */;
+			targetProxy = 09576FE0AECBAFF915304374CCE1C33D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		2106E692B35515368E35221B7D4B2ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		34A945DBA02240C37787F40CD2E8A42F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C41DCA9A09AC82976E44EF84887DCB47 /* AMSPullToRefresh.xcconfig */;
+			baseConfigurationReference = 978885E99F9F451A696A3A0A818BAFA4 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMSPullToRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AMSPullToRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56D5016AD3878276F64D5C151404930E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDE38A7B3044D10BA81D7937AD8FE40D /* Pods-AMSPullToRefresh_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AMSPullToRefresh_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMSPullToRefresh_Example/Pods-AMSPullToRefresh_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMSPullToRefresh_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83060A810E4B553CC7B73080B71B8997 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D0E7E893103CC7A7439847FE53766B2 /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AMSPullToRefresh_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMSPullToRefresh_Tests/Pods-AMSPullToRefresh_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMSPullToRefresh_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C3D94AA28531B52477E0F761E11B60B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C41DCA9A09AC82976E44EF84887DCB47 /* AMSPullToRefresh.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMSPullToRefresh/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AMSPullToRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD590136E3216DD89F3DDF57F7FDD14A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A5F349B442EE2DFEF5FEF701FFAF23 /* Pods-AMSPullToRefresh_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AMSPullToRefresh_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMSPullToRefresh_Tests/Pods-AMSPullToRefresh_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMSPullToRefresh_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -596,81 +382,191 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E9825C1EB4B83EB7D9EB12F4758D98EB /* Debug */ = {
+		7A27A65F740280FDBC6A296A014BE126 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 984B0250FC654673792827371114C6F0 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */;
+			baseConfigurationReference = 61BC2D405B0AEA0A52A8431C2FD84D12 /* AMSPullToRefresh.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AMSPullToRefresh_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8EFDE1D8D4EEA330A48217713F935640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11384F2EE5203D5C059A90540E17EBAD /* Pods-AMSPullToRefresh_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMSPullToRefresh_Example/Pods-AMSPullToRefresh_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2F8C1F66200F28F18FB0963B4AC121B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BC2D405B0AEA0A52A8431C2FD84D12 /* AMSPullToRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMSPullToRefresh/AMSPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B9D5B549DF8114DAA420585AABE674F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666B7881123CE13E439003249D574715 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMSPullToRefresh_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D657A2448F0A72A17C9CB84B33F48959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFC65CB0B8A90620C0AAC80AC003478 /* Pods-AMSPullToRefresh_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		013ECE49FA0FE6CEA93AECD710B0B970 /* Build configuration list for PBXNativeTarget "AMSPullToRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34A945DBA02240C37787F40CD2E8A42F /* Debug */,
-				C3D94AA28531B52477E0F761E11B60B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5094590A26C22BCD5898A87C91A98CB /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Tests" */ = {
+		3094F7FD29AD843A9C0994EB1B352328 /* Build configuration list for PBXNativeTarget "AMSPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83060A810E4B553CC7B73080B71B8997 /* Debug */,
-				CD590136E3216DD89F3DDF57F7FDD14A /* Release */,
+				7A27A65F740280FDBC6A296A014BE126 /* Debug */,
+				B2F8C1F66200F28F18FB0963B4AC121B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DFF6D0A0FF90D825C44DB5EC8C0D29 /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Example" */ = {
+		55782B060F791BC256D8C8321C029A3A /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9825C1EB4B83EB7D9EB12F4758D98EB /* Debug */,
-				56D5016AD3878276F64D5C151404930E /* Release */,
+				2106E692B35515368E35221B7D4B2ACA /* Debug */,
+				8EFDE1D8D4EEA330A48217713F935640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9805516CFF5F6F50AE7B88E3E204FD4 /* Build configuration list for PBXNativeTarget "Pods-AMSPullToRefresh_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D5B549DF8114DAA420585AABE674F6 /* Debug */,
+				D657A2448F0A72A17C9CB84B33F48959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

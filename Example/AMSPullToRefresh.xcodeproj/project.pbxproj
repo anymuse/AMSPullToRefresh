@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EBC192EFA995B8E79FDB47B /* Pods_AMSPullToRefresh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D08D5DFCD2361B004551E6 /* Pods_AMSPullToRefresh_Example.framework */; };
+		3AF32D22C0736C3B12FE543D /* libPods-AMSPullToRefresh_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A4AF6B4F99F3D30BAAB7D0 /* libPods-AMSPullToRefresh_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		609478C04747674E9F1DFD82 /* Pods_AMSPullToRefresh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D9365B7954920A2FECFD3F /* Pods_AMSPullToRefresh_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EE83D9481791E7CF710D0DC5 /* libPods-AMSPullToRefresh_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 776057CA099408277248BD14 /* libPods-AMSPullToRefresh_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		04C084C3EDA53366244A6B7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		09D9365B7954920A2FECFD3F /* Pods_AMSPullToRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMSPullToRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DB5A377676ABF338B11981 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2BDBC796C0A93940B9DA9792 /* Pods-AMSPullToRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMSPullToRefresh_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMSPullToRefresh_Example/Pods-AMSPullToRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3765DE0DE2F706A9F8AC0E8C /* Pods-AMSPullToRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMSPullToRefresh_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMSPullToRefresh_Tests/Pods-AMSPullToRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,9 +60,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		70A4AF6B4F99F3D30BAAB7D0 /* libPods-AMSPullToRefresh_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMSPullToRefresh_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776057CA099408277248BD14 /* libPods-AMSPullToRefresh_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMSPullToRefresh_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E19C424A9F327E7A90FA485 /* AMSPullToRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMSPullToRefresh.podspec; path = ../AMSPullToRefresh.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C1D08D5DFCD2361B004551E6 /* Pods_AMSPullToRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMSPullToRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FB2D4816DF744BE96E10B1 /* Pods-AMSPullToRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMSPullToRefresh_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMSPullToRefresh_Example/Pods-AMSPullToRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0EBC192EFA995B8E79FDB47B /* Pods_AMSPullToRefresh_Example.framework in Frameworks */,
+				EE83D9481791E7CF710D0DC5 /* libPods-AMSPullToRefresh_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				609478C04747674E9F1DFD82 /* Pods_AMSPullToRefresh_Tests.framework in Frameworks */,
+				3AF32D22C0736C3B12FE543D /* libPods-AMSPullToRefresh_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C1D08D5DFCD2361B004551E6 /* Pods_AMSPullToRefresh_Example.framework */,
-				09D9365B7954920A2FECFD3F /* Pods_AMSPullToRefresh_Tests.framework */,
+				776057CA099408277248BD14 /* libPods-AMSPullToRefresh_Example.a */,
+				70A4AF6B4F99F3D30BAAB7D0 /* libPods-AMSPullToRefresh_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -470,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

@@ -1,6 +1,0 @@
-framework module AMSPullToRefresh {
-  umbrella header "AMSPullToRefresh-umbrella.h"
-
-  export *
-  module * { export * }
-}

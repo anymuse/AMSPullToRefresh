@@ -1,5 +1,3 @@
-use_frameworks!
-
 target 'AMSPullToRefresh_Example' do
   pod 'AMSPullToRefresh', :path => '../'
 

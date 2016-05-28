@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AMSPullToRefresh.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AMSPullToRefresh",
+  "homepage": "https://github.com/anymuse/AMSPullToRefresh",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "anymuse": "anymuse@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AMSPullToRefresh.git",
+    "git": "https://github.com/anymuse/AMSPullToRefresh.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "AMSPullToRefresh/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "AMSPullToRefresh/*",
+  "public_header_files": "AMSPullToRefresh/*.h"
 }

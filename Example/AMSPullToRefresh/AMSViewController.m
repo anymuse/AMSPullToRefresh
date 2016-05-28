@@ -7,6 +7,7 @@
 //
 
 #import "AMSViewController.h"
+#import <AMSPullToRefresh.h>
 
 @interface AMSViewController ()
 
