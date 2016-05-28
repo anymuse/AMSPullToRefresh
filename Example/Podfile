@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMSPullToRefresh_Example' do
+  pod 'AMSPullToRefresh', :path => '../'
+
+  target 'AMSPullToRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
