@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface AMSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AMSAppDelegate : UIResponder<UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -1,0 +1,6 @@
+framework module Pods_AMSPullToRefresh_Tests {
+  umbrella header "Pods-AMSPullToRefresh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

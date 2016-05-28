@@ -1,0 +1,16 @@
+PODS:
+  - AMSPullToRefresh (0.1.0)
+
+DEPENDENCIES:
+  - AMSPullToRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  AMSPullToRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMSPullToRefresh: 4070a4e1e8f4d054ee06c0a1bc4a64b69729306a
+
+PODFILE CHECKSUM: 620efedf39f18e64e4233ad1818af9998d6c4d37
+
+COCOAPODS: 1.0.0
