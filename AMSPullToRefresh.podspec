@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'anymuse' => 'anymuse@gmail.com' }
   s.source           = { :git => 'https://github.com/anymuse/AMSPullToRefresh.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'AMSPullToRefresh/*'
   s.public_header_files = 'AMSPullToRefresh/*.h'
