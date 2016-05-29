@@ -87,11 +87,11 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
     if (self.superview && self.isObserving) {
-        [self removeObserversForScrollView:self.superview];
+        [self removeObserversForScrollView:(UIScrollView *)self.superview];
     }
     
     if (newSuperview) {
-        [self addObserversForScrollView:newSuperview];
+        [self addObserversForScrollView:(UIScrollView *)newSuperview];
     }
 }
 
@@ -205,6 +205,8 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
         case AMSPullToRefreshStateCanBeTriggered: {
             self.stateLabel.text = @"松开刷新";
         } break;
+        case AMSPullToRefreshStateWillBeTriggered: {
+        } break;
         case AMSPullToRefreshStateRefreshing: {
             self.stateLabel.text = @"刷新中...";
         } break;
@@ -212,7 +214,7 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
             self.scrollView.scrollEnabled = NO;
         } break;
     }
-    self.stateLabel.sizeToFit;
+    [self.stateLabel sizeToFit];
 }
 
 @end
