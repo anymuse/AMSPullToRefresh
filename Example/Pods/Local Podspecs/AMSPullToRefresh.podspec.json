@@ -1,7 +1,7 @@
 {
   "name": "AMSPullToRefresh",
   "version": "0.1.0",
-  "summary": "A short description of AMSPullToRefresh.",
+  "summary": "A simple pull to refresh",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/anymuse/AMSPullToRefresh",
   "license": {

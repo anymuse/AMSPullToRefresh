@@ -30,4 +30,5 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.source_files = 'AMSPullToRefresh/*'
   s.public_header_files = 'AMSPullToRefresh/*.h'
+
 end

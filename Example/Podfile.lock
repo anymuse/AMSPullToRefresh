@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMSPullToRefresh: 02447b7cf0d10115cce33ce3daecc0b2c4a6f682
+  AMSPullToRefresh: e86878774d91b81f7ccb52fd6a9b17e339190b31
 
 PODFILE CHECKSUM: b7bdbd1082190584e16f7ee0deabfce5d73a67d7
 
