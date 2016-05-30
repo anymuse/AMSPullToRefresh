@@ -24,15 +24,17 @@ static NSString * const kContentOffsetKey = @"contentOffset";
 static NSString * const kContentInsetKey = @"contentInset";
 static NSString * const kContentSizeKey = @"contentSize";
 
+static CGFloat const kBottomPadding = 5.0;
 static CGFloat const kThresholdOffset = 50.0;
 static CGFloat const kInitialTopInset = 64.0;
-static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
+static CGFloat const kHeightOfPullToRefreshView = 50.0;
 
 #pragma mark - AMSPullToRefreshView
 @interface AMSPullToRefreshView : UIView
 
 @property (assign, nonatomic) AMSPullToRefreshState state;
 @property (assign, nonatomic) CGFloat originalTopInset;
+@property (assign, nonatomic) CGFloat lastOffset;
 @property (assign, nonatomic, getter=isObserving) BOOL observing;
 @property (copy, nonatomic) void (^actionHandler)();
 @property (strong, nonatomic) UILabel *stateLabel;
@@ -70,7 +72,7 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
 }
 
 - (void)layoutSubviews {
-    self.stateLabel.center = [self convertPoint:self.center fromView:self.superview];
+    self.stateLabel.center = CGPointMake(CGRectGetWidth(self.frame) / 2, CGRectGetHeight(self.frame) - CGRectGetHeight(self.stateLabel.frame) / 2 - kBottomPadding);
 }
 
 - (void)addObserversForScrollView:(UIScrollView *)scrollView {
@@ -109,7 +111,7 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
     CGFloat offsetY = contentOffset.y;
     switch (_state) {
         case AMSPullToRefreshStateIdle: {
-            if (self.scrollView.isDragging && (offsetY + self.originalTopInset <= -kThresholdOffset)) {
+            if (offsetY + self.originalTopInset <= -kThresholdOffset) {
                 self.state = AMSPullToRefreshStateCanBeTriggered;
             }
         } break;
@@ -119,17 +121,23 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
                     self.state = AMSPullToRefreshStateIdle;
                 }
             } else {
+                self.lastOffset = MIN(-(self.originalTopInset + kThresholdOffset), offsetY);
                 self.state = AMSPullToRefreshStateWillBeTriggered;
+                self.scrollView.contentOffset = CGPointMake(self.scrollView.contentOffset.x
+                                                            , self.lastOffset);
             }
         } break;
         case AMSPullToRefreshStateWillBeTriggered: {
-            if (self.scrollView.isDecelerating) {
-                [self actionTriggered:YES];
+            if (!self.scrollView.isDragging) {
+                if (_lastOffset <= offsetY) {
+                    [self actionTriggered:YES];
+                }
+                self.lastOffset = offsetY;
             }
         } break;
         case AMSPullToRefreshStateRefreshing: {
             CGRect frame = self.frame;
-            frame.origin.y = offsetY + kInitialTopInset;
+            frame.origin.y = MIN(offsetY + kInitialTopInset, -kHeightOfPullToRefreshView);
             self.frame = frame;
         } break;
         case AMSPullToRefreshStateRestoring: {
@@ -157,6 +165,7 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
     
     self.state = AMSPullToRefreshStateRestoring;
     [self resetScrollViewContentInset:animated completion:^{
+        self.lastOffset = self.scrollView.contentOffset.y;
         self.state = AMSPullToRefreshStateIdle;
     }];
 }
@@ -164,13 +173,13 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
 #pragma mark - Scroll View ContentInset
 - (void)setupScrollViewContentInsetForRefreshingState:(BOOL)animated completion:(void (^)())completion {
     UIEdgeInsets currentInset = self.scrollView.contentInset;
-    currentInset.top += kThresholdOffset;
+    currentInset.top += kHeightOfPullToRefreshView;
     [self setScrollViewContentInset:currentInset animated:animated completion:completion];
 }
 
 - (void)resetScrollViewContentInset:(BOOL)animated completion:(void (^)())completion {
     UIEdgeInsets currentInset = self.scrollView.contentInset;
-    currentInset.top -= kThresholdOffset;
+    currentInset.top -= kHeightOfPullToRefreshView;
     [self setScrollViewContentInset:currentInset animated:animated completion:completion];
 }
 
@@ -196,6 +205,9 @@ static CGFloat const kHeightOfPullToRefreshView = kThresholdOffset;
 
 #pragma mark - Getters & Setters
 - (void)setState:(AMSPullToRefreshState)state {
+    if (_state == state) {
+        return;
+    }
     _state = state;
     switch (state) {
         case AMSPullToRefreshStateIdle: {
