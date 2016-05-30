@@ -111,7 +111,7 @@ static CGFloat const kHeightOfPullToRefreshView = 50.0;
     CGFloat offsetY = contentOffset.y;
     switch (_state) {
         case AMSPullToRefreshStateIdle: {
-            if (offsetY + self.originalTopInset <= -kThresholdOffset) {
+            if (self.scrollView.isDragging && (offsetY + self.originalTopInset <= -kThresholdOffset)) {
                 self.state = AMSPullToRefreshStateCanBeTriggered;
             }
         } break;
