@@ -8,13 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class AMSPullToRefreshView;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIScrollView (AMSPullToRefresh)
 
+@property (strong, nonatomic, readonly) AMSPullToRefreshView *pullToRefreshView;
+
 - (void)addPullToRefreshActionHandler:(void (^)())handler;
-- (void)triggerPullToRefresh:(BOOL)animated;
 - (void)stopPullToRefresh:(BOOL)animated;
+- (void)triggerPullToRefresh:(BOOL)animated;
 
 @end
 

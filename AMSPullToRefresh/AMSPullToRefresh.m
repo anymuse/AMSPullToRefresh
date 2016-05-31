@@ -33,8 +33,8 @@ static CGFloat const kHeightOfPullToRefreshView = 50.0;
 @interface AMSPullToRefreshView : UIView
 
 @property (assign, nonatomic) AMSPullToRefreshState state;
-@property (assign, nonatomic) CGFloat originalTopInset;
 @property (assign, nonatomic) CGFloat lastOffset;
+@property (assign, nonatomic) CGFloat originalTopInset;
 @property (assign, nonatomic, getter=isObserving) BOOL observing;
 @property (copy, nonatomic) void (^actionHandler)();
 @property (strong, nonatomic) UILabel *stateLabel;
@@ -67,8 +67,9 @@ static CGFloat const kHeightOfPullToRefreshView = 50.0;
     _stateLabel.textAlignment = NSTextAlignmentCenter;
     _stateLabel.font = [UIFont systemFontOfSize:13];
     _stateLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+    _stateLabel.text = @"下拉刷新";
+    [self.stateLabel sizeToFit];
     [self addSubview:_stateLabel];
-    self.state = AMSPullToRefreshStateIdle;
 }
 
 - (void)layoutSubviews {
@@ -234,7 +235,7 @@ static CGFloat const kHeightOfPullToRefreshView = 50.0;
 #pragma mark - AMSPullToRefresh
 @interface UIScrollView ()
 
-@property (strong, nonatomic) AMSPullToRefreshView *pullToRefreshView;
+@property (strong, nonatomic, readwrite) AMSPullToRefreshView *pullToRefreshView;
 
 @end
 
